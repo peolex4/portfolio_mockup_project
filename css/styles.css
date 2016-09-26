@@ -1,0 +1,60 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    color: #2d3c49;
+}
+
+.title-logo {
+    max-width: 15%;
+    margin: 20px;
+}
+
+.title-super {
+    font-size: 50px;
+}
+
+.bar {
+    border-color: #7d97ad;
+    border-width: 4px;
+/*
+On my first I had a suggestion to improve
+this part using the shortcut: border: 4px #7d97ad;
+instead of the two lines above, but seems to me
+isn't working good like those!
+*/
+    margin-top: 10px;
+}
+
+.main_image {
+    max-width: 100%;
+}
+
+.text-muted {
+    color: #7d97ad;
+}
+.three_box {
+    padding: 15px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.images_med {
+    max-width: 100%;
+}
+
+.links {
+    color:#2d3c49;
+}
+
+.my_footer {
+    margin-bottom: 15px;
+}
+
+.footer_el {
+    margin-right: 10px;
+}
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: "brandico", sans-serif;
+}
